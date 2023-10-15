@@ -1,0 +1,363 @@
+p{
+    margin: 0;
+}
+
+#panel, #tournament-modal, #dailywins-modal {
+    display: none;
+    position: fixed;
+    opacity: 100%;
+    z-index: 9999;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main_container {
+    color: white
+}
+
+.override {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: unset;
+}
+
+#panel.showRules, #tournament-modal.showRules, #dailywins-modal.showRules {
+    display: block;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mt-10 {
+    margin-top: 2%;
+}
+
+.heading {
+    font-size: large;
+    padding: 10px;
+}
+
+.upper {
+    padding: 0.75em;
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.lower {
+    background-color: rgb(0,0,0);
+    padding: 0 15px;
+    height: 85vh;
+    padding-bottom: 5%;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.close {
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 1;
+    color: white;
+    cursor: pointer;
+}
+
+.paytable img {
+    width: 100px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 1.25em;
+}
+
+
+/* .flex-row .free_spins p, .flex-row .cash_award p{
+    font-size: 0.85em;
+} */
+
+.gamerules .flex-row{
+    justify-content: space-around;
+    margin-top: 1.25em;
+}
+
+.gamerules h4{
+    margin-bottom: 5px;
+}
+.symb_info{
+    display: flex;
+    align-items: center;
+}
+
+.lower-pre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symb_info p{
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.gamerules {
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.mt-5{
+    margin-top: 5px !important;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.paytable_image{
+    margin: 1.25em 0;
+}
+
+.paytable_image img{
+    width: 60%;
+}
+
+.paytable_values{
+    margin: 10px;
+}
+
+.space_and_enter{
+    text-align: left;
+    margin: 1.25em;
+}
+
+.common_rule{
+    margin: 1.25em;
+}
+
+.adjacent,
+.paytable {
+    margin-top: 10px;
+}
+
+.volatility{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 15px;
+    max-width: 342px;
+    padding: 10px;
+}
+
+.volatility_text{
+    font-size: 35px;
+    color: skyblue;
+    margin-right: 5px;
+}
+
+.adjacent {
+    padding: 15px;
+}
+
+.parallel, .symb_info_parallel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.symb_info_parallel{
+    width: 35%;
+}
+
+.symb_info_parallel div{
+    margin: 10px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(48, 48, 60);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(245, 245, 248);
+    border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Swipe for IOS */
+
+#swipe-layer{
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    text-align: center;
+    background: rgba(10 10 10 / 46%);
+    visibility: hidden;
+    overflow: auto;
+    z-index: 9999;
+    -webkit-overflow-scrolling: touch;
+}
+
+.swipe-object{
+    animation: MoveUpDown 1.5s linear infinite;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+}
+
+@keyframes MoveUpDown {
+    0%{
+        top: 0;
+        bottom: 0;
+    }
+    50% {
+        bottom: 50px;
+    }
+    100% {
+        top: 50px;
+        bottom: 0;
+    }
+    
+}
+
+/* Paylines Styling */
+
+.paytable-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paytable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.payline-row{
+    display: flex;
+    justify-content: center;
+}
+
+.payline-row div.payline-col{
+    height: 15px;
+    width: 15px;
+    background: grey;
+    border: 1px solid black;
+}
+
+#paytable .hightlight-square{
+    background-color: white;
+}
+
+.payline{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+}
+
+@media (max-width: 420px) and (orientation: portrait){
+    .symb_info{
+        flex-direction: column;
+    }
+    .symb_info p{
+        text-align: center;
+    }
+    .heading{
+        font-size: medium;
+    }
+
+    .gamerules .flex-row{
+        justify-content: center;
+        margin-top: 1.25em;
+    }
+
+    .volatility{
+        max-width: 190px;
+    }
+
+    .volatility_text{
+        font-size: 16px;
+    }
+
+    span.volatility_imgs  img{
+        width: 12px;
+    }
+
+    .mt-60{
+        margin-top: 0;
+    }
+    .lower{
+        height: 100vh;
+    }
+    .upper{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
+
+@media (max-height: 600px){
+    .lower{
+        height: 82vh;
+    }
+}
+
+@media (max-width: 840px){
+    .gamerules{
+        font-size: 14px;
+    }
+    
+    .gamerules .flex-row{
+        justify-content: center;
+    }
+
+    .lower{
+        padding-bottom: 35%;
+    }
+
+    .paytable_image img{
+        width: 90%;
+    }
+}
+
+@media (orientation: portrait){
+    .parallel{
+        display: block;
+    }
+    .symb_info_parallel{
+        width: 100%;
+    }
+}

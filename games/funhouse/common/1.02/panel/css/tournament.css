@@ -1,0 +1,59 @@
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+  background: transparent;
+  /* make scrollbar transparent */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+tr:nth-child(even) {
+  background-color: #323c52;
+  color: #fdecdd;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+tr:nth-child(odd) {
+  background-color: #37425b;
+  color: #fdecdd;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+td {
+  border-right: 1px solid #55607a;
+}
+
+td.prizeTournament {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  padding: 6px 0px 6px 0px;
+}
+
+/* mobile */
+
+td.prizeTournamentMobile {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  padding: 3px 0px 3px 0px;
+}
+
+@media screen and (max-width:920px) and (orientation: portrait) {
+  .mainContainer {
+    height: 100% !important;
+  }
+}

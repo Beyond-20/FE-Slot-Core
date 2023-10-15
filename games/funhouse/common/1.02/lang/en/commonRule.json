@@ -1,0 +1,30 @@
+{
+    "commonRules" : {
+        "gamerules1": "5 reels 3 rows slot.",
+        "gamerules2": "25 paylines, pays left to right",
+        "wildReplacesExceptScatter": "Wild replaces all symbols except Scatter.",
+        "scatterAwardsBonus": "3 or more scatters award bonus choice feature.",
+        "cashAwardOrFreeSpins": "User can select either cash award or x number of freespins.",
+        "addFreespins": "3 or more scatters inside Freespin will add above number of freespins to the total.",
+        "leftToRight": "All symbols pay from left to right on selected paylines. Free spin win is added to the payline win.",
+        "multipliedWins": "All wins are multiplied by bet per line when winnning on multiple paylines, all wins are added to the total win.",
+        "multipliedWins1": "All wins are multiplied by the per-line bet.",
+        "malfunction": "Malfunction Voids all plays and pays.",
+        "rtp_text": " The theoretical RTP of this game is",
+        "min": "0.25",
+        "max": "250"
+    },
+    "gameButtonsRule" : {
+        "spaceAndEnter": "SPACE and ENTER buttons on the keyboard can be used to start and stop the spin.",
+        "changeBetValue": "CLICK + OR - buttons to change the bet value.",
+        "settingMenu": "Click on the setting menu that contains setting for volume and other game settings.",
+        "openGameRules": "Open the information page to view pay table and game rules."
+    },
+    "headings": {
+        "gameSpecification": "GAME SPECIFICATION",
+        "howtoPlay": "HOW TO PLAY:",
+        "minimumBet": "MINIMUM BET: ",
+        "maximumBet": "MAXIMUM BET: ",
+        "volatilityText" : "Volatility"
+    }
+}

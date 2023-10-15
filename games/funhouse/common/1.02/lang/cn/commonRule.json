@@ -1,0 +1,29 @@
+{
+    "commonRules" : {
+        "gamerules1": "5转轮、3行",
+        "gamerules2": "25 条支付线，从左到右支付",
+        "wildReplacesExceptScatter": "百搭替换除奖励图案之外的所有图案。",
+        "scatterAwardsBonus": "3 个或更多奖励图案将有奖金选择功能。",
+        "cashAwardOrFreeSpins": "玩家可以选择现金奖励或 x 次免费游戏。",
+        "addFreespins": "免费游戏中的 3 次或更多奖励图案将使上述免费旋转次数增加到总数中。",
+        "leftToRight": "所有图案在选定支付线上从左到右支付。免费游戏胜利将添加到支付线胜利中。",
+        "multipliedWins": "当在多条支付线上获胜时，所有胜利都乘以每条线的赌注，所有胜利都被添加到总胜利中。",
+        "multipliedWins1": "所有的胜利都乘以每行投注。",
+        "malfunction": "故障使所有游戏和支付无效",
+        "rtp_text": " 这个游戏的理论RTP是",
+        "min": "0.25",
+        "max": "250"
+    },
+    "gameButtonsRule" : {
+        "spaceAndEnter": "键盘上的空格键和确认键可用于开始和停止旋转。",
+        "changeBetValue": "点击 + 或者 - 更改投注值的按钮。",
+        "settingMenu": "点击包含音量设置和其他游戏设置的设置菜单。",
+        "openGameRules": "打开信息页面查看赔率表和游戏规则。"
+    },
+    "headings": {
+        "gameSpecification": "游戏规范",
+        "howtoPlay": "如何玩:",
+        "minimumBet": "最小赌注:",
+        "maximumBet": "最大赌注："
+    }
+}

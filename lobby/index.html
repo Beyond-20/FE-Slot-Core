@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="css/style.css">
+   <title>Funhouse Games Lobby</title>
+   <style>
+   </style>
+   <script>
+      function launchGame(game) {
+         let url = "games/" + game + "/index.html";
+         var newwindow = window.open(url, name, 'width=1440,height=900,toolbar=0,menubar=0,location=0');
+         event.preventDefault();
+      }
+   </script>
+
+</head>
+
+<body id="fotParticlesJs">
+   <div class="col-md-12 slots">
+      <li class="col-md-4 col-sm-4">
+         <div class="card" id="">
+            <div class="card-body">
+               <a name="pandashore" class="pointer" onclick="launchGame('pandashore')" value="1">
+                  <h5>Panda Shore</h5>
+               </a>
+            </div>
+            <div class="card-body">
+               <a name="baccarat" class="pointer" onclick="launchGame('baccarats6')" value="1">
+                  <h5>Baccarat Super Six</h5>
+               </a>
+            </div>
+         </div>
+      </li>
+   </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+    "FontFaces" : {
+        "gameFont1" : "lalezar-Regular"
+
+    },
+    "FontFiles" : {
+        "PrimaryFonts" : [
+            {"name" : "lalezar-Regular", "type" : "game", "file" : "lalezar-Regular.ttf", "otfile" : "SourceSansPro-Regular.otf"}
+        ],
+        "SecondaryFonts" : [
+
+        ]
+    },
+    "FontConfig" : {
+        "commonFontStyle2" : {
+            "Desktop": {"fontFamily": "commonFont2", "fontSize": 24, "fill": "0xFFFFFF"},
+            "Tablet": {"fontFamily": "commonFont2", "fontSize": 24, "fill": "0xFFFFFF"},
+            "Mobile": {"fontFamily": "commonFont2", "fontSize": 24, "fill": "0xFFFFFF"}
+        },
+        "AlertTextStyle" : {
+            "Mobile": {"fontFamily": "gameFont1","fontSize": 32, "fill": ["#ffffff"], "align": "center"},
+            "Tablet": {"fontFamily": "gameFont1","fontSize": 32, "fill": ["#ffffff"], "align": "center"}
+        },
+        "ChipValueText" : {
+            "Desktop": {"fontFamily": "gameFont1","fontSize": 30, "fill": ["#000000"], "align": "center"},
+            "Mobile": {"fontFamily": "gameFont1","fontSize": 50, "fill": ["#000000"], "align": "center"},
+            "Tablet": {"fontFamily": "gameFont1","fontSize": 30, "fill": ["#000000"], "align": "center"}
+        }
+
+
+    }
+}

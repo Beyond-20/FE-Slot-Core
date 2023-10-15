@@ -1,0 +1,8 @@
+{
+  "gameConfig" : {
+    "passPhrase" : "funhouse1234",
+    "baseURL" : "https://service.fhg88.net",
+    "socketURL" : "wss://service.fhg88.net",
+    "historyURL" : "https://history.fhg88.net/game-history/"
+  }
+}

@@ -1,0 +1,568 @@
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+  background: transparent;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+ul {
+  color: rgba(254, 236, 220, 1);
+  line-height: 18px;
+}
+
+.dw-lis {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dw-table-th {
+  font-family: Exo2, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #ffbe0b;
+  background-color: #84003199;
+}
+
+.dw-table-td {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #feecdc;
+  border-right: 1.2px solid #97616166;
+}
+.dw-table-td:last-child {
+  border-right: none;
+}
+.dw-tableRow {
+  border-bottom: 1.2px solid #97616166;
+}
+.dw-tableRow:last-child {
+  border-bottom: none;
+}
+
+.dw-table-th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.dw-table-th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.dw-main {
+  background-color: #000000bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.dw-card-item:first-child {
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.dw-card-item:last-child {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+.dw-container {
+  width: 60%;
+  height: 80%;
+  background-image: url("../../images/dailywins/DailyWins2.jpg");
+  background-size: 100% 100%;
+  background-repeat: "no-repeat";
+  border-radius: 12px;
+  overflow-y: scroll;
+}
+
+.dw-header-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0px 10px;
+}
+
+.dw-header-title {
+  font-family: Exo2, sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffe9af;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.dw-closeBtn {
+  position: relative;
+  right: 16px;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+}
+
+/* tournament card */
+
+.dw-tournament-container {
+  background: rgba(10, 0, 7, 0.6);
+  padding: 15px 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(234, 160, 10, 0.8);
+  line-height: 18px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+#brief {
+  font-size: 14px;
+}
+.dw-brief {
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+.dw-prize-pool-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dw-tournament-header {
+  font-family: Exo2, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffe9af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.dw-touranament-brief-conatiner {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #feecdc;
+}
+
+.dw-tournament-prize-pool {
+  background: linear-gradient(
+    270deg,
+    rgba(82, 95, 128, 0.6) 0%,
+    rgba(223, 177, 0, 0.49) 51.56%,
+    rgba(82, 95, 128, 0.6) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  padding: 10px 0 10px 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 25px;
+  width: 100%;
+  position: relative;
+  width: 107.2%;
+  bottom: 120;
+  left: 0;
+}
+
+.dw-prize {
+  color: #feecdc;
+}
+
+.dw-timer-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(
+    270deg,
+    rgba(82, 95, 128, 0.6) 0%,
+    rgba(223, 177, 0, 0.49) 51.56%,
+    rgba(82, 95, 128, 0.6) 100%
+  );
+}
+
+.dw-ends-in {
+  position: absolute;
+  top: -15px;
+  left: auto;
+  right: auto;
+  width: 100px;
+}
+
+.dw-timer-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+}
+
+.dw-timer-value {
+  margin-top: 10px;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(254, 236, 220, 1);
+}
+
+.dw-timer-text {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(255, 190, 11, 1);
+}
+
+.dw-button-container {
+  height: 50px;
+  width: 400px;
+  background: rgba(10, 0, 7, 0.6);
+  opacity: 0.9;
+  border: 1px solid rgba(234, 160, 10, 0.8);
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.dw-price-tournament-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dw-price-tournament-content {
+  width: 90%;
+  height: 90%;
+  background-color: #000000bf;
+  border-radius: 12px;
+  overflow-y: scroll;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 30px;
+}
+
+.dw-price-tournament-body {
+  padding: 0px 20px;
+}
+
+.dw-backBtn-container {
+  position: relative;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.dw-backBtn {
+  width: 22px;
+}
+
+.dw-backBtn-text {
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.dw-details-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 14px;
+}
+
+.dw-details-title {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffbe0b;
+  font-size: 15px;
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+}
+
+.dw-details-content {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #feecdc;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+
+.dw-table-name {
+  width: 65%;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  color: #ffbe0b;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px 0px;
+}
+
+.dw-details-table-container {
+  display: flex;
+  border: 1px solid #ffbe0b;
+  border-radius: 8px;
+}
+
+.dw-details-table {
+  width: 100%;
+}
+
+.dw-data-note {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #feecdc;
+  padding-top: 8px;
+}
+
+.dw-card-item {
+  width: 100%;
+}
+
+/* large screen */
+
+@media screen and (min-width: 1400px) {
+  .dw-header-title {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .dw-header-title {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .dw-header-title {
+    font-size: 24px;
+  }
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+  .dw-ends-in {
+    top: -12px;
+    width: 80px;
+  }
+  .dw-main {
+    margin-top: 0;
+    padding: 0;
+  }
+  .dw-card-main {
+    background-color: #00000099;
+    margin: 12px;
+    border: 1px solid rgba(255, 190, 11, 1);
+    border-radius: 12px;
+    /* height: 100%; */
+  }
+  .dw-container {
+    width: 100%;
+    height: 100% !important;
+    max-height: 100% !important;
+    background-size: cover;
+    background-position: center;
+  }
+  .dw-card-item {
+    margin: 10;
+    margin-bottom: 15px;
+    /* padding: 10; */
+  }
+  .dw-card-item:first-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .dw-card-item:last-child {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #brief {
+    display: none;
+  }
+  #dw-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 100%;
+  }
+  .dw-header-container {
+    justify-content: space-between;
+  }
+  .dw-backBtn-text {
+    display: none;
+  }
+
+  .dw-table-name {
+    font-size: 14px;
+  }
+  .dw-table-th {
+    font-size: 14px;
+  }
+  .dw-table-td {
+    font-size: 14px;
+  }
+  #dw-table-main-container {
+    width: 100% !important;
+  }
+  .dw-table-th {
+    font-size: 12px;
+  }
+  .dw-details-title {
+    font-size: 14px;
+    padding-top: 25px;
+    /* padding-bottom: 5px; */
+  }
+  .dw-button-container {
+    width: 90%;
+  }
+  .dw-timer-container {
+    margin: auto;
+    width: 100% !important;
+  }
+  .dw-tournament-container {
+    margin: 10px;
+    height: 267px !important;
+    justify-content: space-evenly;
+  }
+  .dw-price-tournament-content {
+    width: 100%;
+    padding: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 100%;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 190, 11, 1);
+  }
+
+  .dw-prize-pool-mobile {
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  .dw-details-container {
+    line-height: 20px;
+  }
+  .dw-details-content {
+    font-size: 16px;
+  }
+
+  .dw-header-container {
+    padding: 0;
+  }
+
+  .dw-header-title {
+    flex-direction: column;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dw-closeBtn {
+    right: 0;
+    top: 4px;
+    height: 32px !important;
+    width: 32px !important;
+  }
+  .dw-lis {
+    font-size: 14px !important;
+  }
+}
+
+/* landscape */
+
+@media only screen and (max-width: 920px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .dw-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .dw-prize-pool-mobile {
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+  .dw-header-title {
+    flex-direction: row;
+  }
+  .dw-tournament-header {
+    font-size: 22px;
+  }
+
+  .dw-card-main {
+    margin: 10px;
+    border: 1px solid rgba(255, 190, 11, 1);
+    background-color: #000000bf;
+    height: max-content;
+    margin: 12px;
+    border-radius: 12px;
+  }
+  .dw-price-tournament-content {
+    border: 1px solod rgba(255, 190, 11, 1);
+  }
+
+  .dw-tournament-container {
+    height: 267px;
+  }
+  .dw-timer-container {
+    width: 100% !important;
+  }
+  #dw-prize-pool-mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .dw-lis {
+    font-size: 16px !important;
+  }
+  .dw-card-item:first-child {
+    padding-left: 30px;
+  }
+  .dw-card-item:last-child {
+    padding-right: 30px;
+  }
+  .dw-ends-in {
+    top: -12px;
+    width: 80px;
+  }
+}
+/* @media only screen and (max-width: 768px) and (max-height: 670px) {
+  .dw-card-main {
+    
+    margin-bottom: 0px;
+  }
+} */

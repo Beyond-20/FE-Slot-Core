@@ -1,0 +1,16 @@
+body {
+	background-color: #1e1b1b !important;
+
+}
+.pointer{
+	cursor: pointer;
+}
+.card-body{
+	text-align: center;
+}
+.slots{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
